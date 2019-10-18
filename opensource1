@@ -1,7 +1,5 @@
-import urllib2
-from bs4 import BeautifulSoup
-from pymongo import Connection
-host = 'localhost'
+import urllib2       #will let you learn the BeautifulSoup
+from bs4 import BeautifulSoup 
 database = 'lotto'
 collection = 'mega_millions'
 def mongo_connection():
